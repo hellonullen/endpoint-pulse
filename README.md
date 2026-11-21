@@ -1,5 +1,9 @@
 # EndpointPulse
 
+[![.NET 9.0](https://img.shields.io/badge/.NET-9.0%20LTS-512BD4?logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Author Website](https://img.shields.io/badge/Author-kadircanuredi.com.tr-0ea5e9?style=flat-square&logo=google-chrome&logoColor=white)](https://kadircanuredi.com.tr)
+
 A fast and lightweight CLI utility written in C# (.NET 9) for monitoring HTTP, HTTPS, and TCP endpoint availability, latency, and SSL certificate expiration.
 
 ## Capabilities
@@ -44,6 +48,13 @@ dotnet run --project src/EndpointPulse.Cli -- scan -c targets.json
 ```bash
 dotnet run --project src/EndpointPulse.Cli -- watch -c targets.json -i 60
 ```
+
+## Author & Engineering
+
+Developed and maintained by **Kadircan Üredi** (NulleN) — Full-Stack Developer & Systems Engineer.
+- 🌐 **Official Website:** [https://kadircanuredi.com.tr](https://kadircanuredi.com.tr)
+- 🐙 **GitHub:** [@hellonullen](https://github.com/hellonullen)
+- 📧 **Inquiries:** [contact@kadircanuredi.com.tr](mailto:contact@kadircanuredi.com.tr)
 
 ## License
 
