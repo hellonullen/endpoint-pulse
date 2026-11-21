@@ -1,0 +1,17 @@
+## .NET / Visual Studio
+bin/
+obj/
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+.idea/
+*.suo
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Build & Release Artifacts
+dist/
+publish/

@@ -1,0 +1,46 @@
+{
+  "Targets": [
+    {
+      "Name": "Google Public DNS",
+      "Url": "tcp://8.8.8.8:53",
+      "TimeoutMs": 3000,
+      "ExpectedStatusCode": 0,
+      "LatencyWarningMs": 1000,
+      "SslWarningDays": 14
+    },
+    {
+      "Name": "Cloudflare Web",
+      "Url": "https://cloudflare.com",
+      "TimeoutMs": 5000,
+      "ExpectedStatusCode": 0,
+      "LatencyWarningMs": 1000,
+      "SslWarningDays": 14
+    },
+    {
+      "Name": "GitHub API",
+      "Url": "https://api.github.com",
+      "TimeoutMs": 5000,
+      "ExpectedStatusCode": 0,
+      "LatencyWarningMs": 800,
+      "SslWarningDays": 14
+    },
+    {
+      "Name": "Example Backend API",
+      "Url": "https://httpbin.org/status/200",
+      "TimeoutMs": 5000,
+      "ExpectedStatusCode": 200,
+      "LatencyWarningMs": 1000,
+      "SslWarningDays": 14
+    }
+  ],
+  "Webhook": {
+    "DiscordWebhookUrl": "https://discord.com/api/webhooks/YOUR_WEBHOOK_URL",
+    "TelegramBotToken": "",
+    "TelegramChatId": "",
+    "AlertOnDegraded": true,
+    "AlertOnUnhealthy": true,
+    "AlertOnSslExpiring": true,
+    "HasAnyWebhook": true
+  },
+  "DefaultIntervalSeconds": 30
+}
